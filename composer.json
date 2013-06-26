@@ -1,5 +1,5 @@
 {
-    "name": "IssetBV/TPC-client",
+    "name": "IssetBV/TPC-manager-client",
     "type": "library",
     "description": "TPC client for PHP 5.3",
     "authors": [
