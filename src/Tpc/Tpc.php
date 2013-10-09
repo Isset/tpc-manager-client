@@ -47,6 +47,11 @@ class Tpc
         return new Payload\JobStatus($this->baseLink . 'job/', $identifier);
     }
 
+    public function createJobRevokePayload($identifier)
+    {
+        return new Payload\JobRevoke($this->baseLink . 'job/', $identifier);
+    }
+
     /**
      *
      * @param \Tpc\Payload\Payload $payload
